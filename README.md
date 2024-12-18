@@ -8,6 +8,9 @@ This project features a custom component that integrates an API call to an objec
 
 <img src="https://github.com/jghenriksson/DETR_LangFlow_Integration/blob/main/example_images/CatAndDog.jpg" alt="drawing" width="300"/> <img src="https://github.com/jghenriksson/DETR_LangFlow_Integration/blob/main/example_images/CatAndDog_detected.jpg" alt="drawing" width="300"/>
 
+A tutorial video is available on YouTube:
+https://www.youtube.com/watch?v=HbZiPqa067k
+
 ### Overview
 The MessageImageProcessingComponent is a custom component for LangFlow, designed to process images by detecting objects using the Hugging Face detr-resnet-50 model. The component overlays bounding boxes and labels on detected objects in the input image and outputs a modified image along with a text response.
 
