@@ -1,15 +1,5 @@
 {
-  "updated_at": "2024-12-17T13:49:05+00:00",
-  "icon": "Braces",
-  "name": "Image Processing API call",
-  "webhook": false,
-  "description": "Includes a custom component that integrates an API call to an object detection model (ResNet-50), marks the detected components in the image and passes the message to the chatbot that the image was processed and has been made available to the user.",
-  "icon_bg_color": null,
-  "endpoint_name": null,
   "id": "93d72fa7-0940-42c3-af32-45267cfc845c",
-  "user_id": "258392f1-7694-49db-8492-1fca1ce42ee8",
-  "tags": null,
-  "gradient": "2",
   "data": {
     "nodes": [
       {
@@ -291,7 +281,8 @@
             "legacy": false,
             "edited": true,
             "metadata": {},
-            "tool_mode": false
+            "tool_mode": false,
+            "lf_version": "1.1.1"
           },
           "type": "ChatInput"
         },
@@ -389,7 +380,8 @@
             "legacy": false,
             "edited": false,
             "metadata": {},
-            "tool_mode": false
+            "tool_mode": false,
+            "lf_version": "1.1.1"
           },
           "type": "Prompt"
         },
@@ -687,8 +679,8 @@
         "id": "CustomComponent-XwyUv",
         "type": "genericNode",
         "position": {
-          "x": 1334.446251826866,
-          "y": 538.9647036477934
+          "x": 1337.7192400111335,
+          "y": 436.266295224964
         },
         "data": {
           "node": {
@@ -700,7 +692,7 @@
                 "placeholder": "",
                 "show": true,
                 "name": "api_key",
-                "value": "HG_Key",
+                "value": "",
                 "display_name": "HuggingFace API Key",
                 "advanced": false,
                 "input_types": [
@@ -787,12 +779,12 @@
                 "_input_type": "StrInput"
               }
             },
-            "description": "Use as a template to create your own component.",
+            "description": "This component integrates an API call to an object detection model (ResNet-50), marks the detected components in the image and passes the message to the chatbot that the image was processed and has been made available to the user.",
             "icon": "image",
             "base_classes": [
               "Message"
             ],
-            "display_name": "Custom Component",
+            "display_name": "Object detection model integration",
             "documentation": "http://docs.langflow.org/components/custom",
             "custom_fields": {},
             "output_types": [],
@@ -822,18 +814,17 @@
             "legacy": false,
             "edited": true,
             "metadata": {},
-            "tool_mode": false,
-            "lf_version": "1.1.1"
+            "tool_mode": false
           },
           "type": "CustomComponent",
           "id": "CustomComponent-XwyUv"
         },
-        "selected": false,
+        "selected": true,
         "width": 320,
-        "height": 517,
+        "height": 605,
         "positionAbsolute": {
-          "x": 1334.446251826866,
-          "y": 538.9647036477934
+          "x": 1337.7192400111335,
+          "y": 436.266295224964
         },
         "dragging": false
       },
@@ -873,7 +864,7 @@
                 "placeholder": "",
                 "show": true,
                 "name": "api_key",
-                "value": "OpenAI_Key",
+                "value": "",
                 "display_name": "OpenAI API Key",
                 "advanced": false,
                 "input_types": [
@@ -1169,7 +1160,8 @@
             "legacy": false,
             "edited": true,
             "metadata": {},
-            "tool_mode": false
+            "tool_mode": false,
+            "lf_version": "1.1.1"
           },
           "type": "OpenAIModel",
           "id": "OpenAIModel-xb9D8"
@@ -1292,18 +1284,18 @@
             ]
           }
         },
-        "id": "reactflow__edge-CustomComponent-XwyUv{œdataTypeœ:œCustomComponentœ,œidœ:œCustomComponent-XwyUvœ,œnameœ:œoutput_messageœ,œoutput_typesœ:[œMessageœ]}-OpenAIModel-xb9D8{œfieldNameœ:œinput_valueœ,œidœ:œOpenAIModel-xb9D8œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "animated": false,
-        "className": "",
-        "selected": false
+        "id": "reactflow__edge-CustomComponent-XwyUv{œdataTypeœ:œCustomComponentœ,œidœ:œCustomComponent-XwyUvœ,œnameœ:œoutput_messageœ,œoutput_typesœ:[œMessageœ]}-OpenAIModel-xb9D8{œfieldNameœ:œinput_valueœ,œidœ:œOpenAIModel-xb9D8œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       }
     ],
     "viewport": {
-      "x": -388.15510837464785,
-      "y": -256.21921067235064,
-      "zoom": 0.5107595865404941
+      "x": -438.46349357585655,
+      "y": -200.07661879138448,
+      "zoom": 0.6277705112490827
     }
   },
-  "folder_id": "59ca7ac7-5df2-4cd2-b721-bcb962d14636",
+  "description": "Includes a custom component that integrates an API call to an object detection model (ResNet-50), marks the detected components in the image and passes the message to the chatbot that the image was processed and has been made available to the user.",
+  "name": "Image Processing API call",
+  "last_tested_version": "1.1.1",
+  "endpoint_name": null,
   "is_component": false
 }
