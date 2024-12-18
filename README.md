@@ -2,6 +2,8 @@
 
 This project features a custom component that integrates an API call to an object detection model (ResNet-50), marks the detected components in the image and passes the message to the chatbot that the image was processed and has been made available to the user. This component is intended for local use.
 
+<img src="https://github.com/jghenriksson/DETR_LangFlow_Integration/blob/main/example_images/Buses.jpg" alt="drawing" width="200"/>
+
 ![alt text](https://github.com/jghenriksson/DETR_LangFlow_Integration/blob/main/example_images/Buses.jpg)
 
 ### Overview
