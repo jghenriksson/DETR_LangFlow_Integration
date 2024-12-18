@@ -2,9 +2,11 @@
 
 This project features a custom component that integrates an API call to an object detection model (ResNet-50), marks the detected components in the image and passes the message to the chatbot that the image was processed and has been made available to the user. This component is intended for local use.
 
-<img src="https://github.com/jghenriksson/DETR_LangFlow_Integration/blob/main/example_images/Buses.jpg" alt="drawing" width="200"/> <img src="https://github.com/jghenriksson/DETR_LangFlow_Integration/blob/main/example_images/Buses_detected.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/jghenriksson/DETR_LangFlow_Integration/blob/main/example_images/dog.jpg" alt="drawing" width="300"/> <img src="https://github.com/jghenriksson/DETR_LangFlow_Integration/blob/main/example_images/dog_detected.jpg" alt="drawing" width="300"/>
 
-<img src="https://github.com/jghenriksson/DETR_LangFlow_Integration/blob/main/example_images/dog.jpg" alt="drawing" width="200"/> <img src="https://github.com/jghenriksson/DETR_LangFlow_Integration/blob/main/example_images/dog_detected.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/jghenriksson/DETR_LangFlow_Integration/blob/main/example_images/Buses.jpg" alt="drawing" width="300"/> <img src="https://github.com/jghenriksson/DETR_LangFlow_Integration/blob/main/example_images/Buses_detected.jpg" alt="drawing" width="300"/>
+
+<img src="https://github.com/jghenriksson/DETR_LangFlow_Integration/blob/main/example_images/CatAndDog.jpg" alt="drawing" width="300"/> <img src="https://github.com/jghenriksson/DETR_LangFlow_Integration/blob/main/example_images/CatAndDog_detected.jpg" alt="drawing" width="300"/>
 
 ### Overview
 The MessageImageProcessingComponent is a custom component for LangFlow, designed to process images by detecting objects using the Hugging Face detr-resnet-50 model. The component overlays bounding boxes and labels on detected objects in the input image and outputs a modified image along with a text response.
